@@ -1,0 +1,7 @@
+<h2>Todo List</h2>
+<ul>
+  <li *ngFor="let todo of todolist">{{ todo.title }}</li>
+</ul>
+<button (click)="afficherBilan()">Bilan</button>
+<p>Completed count: {{ completedCount }} / {{ todolist.length }}</p>
+----------------------------------------------------------------------------------------------------------------------------------------------------------
